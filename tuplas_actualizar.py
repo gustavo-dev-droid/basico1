@@ -55,6 +55,22 @@ Las tuplas son inmutables, por lo que se pueden eliminar elementos de ellas, per
 
 Ejemplo, convierte la tupla en una lista. elimina "manzana" y vuelve a convertirla en una tupla.'''
 
+tupla3 = ("manzana", "banana", "guinda")
+print(tupla3)
+print(type(tupla3))
+tupla4 = list(tupla3)
+tupla4.remove("manzana")
+print(tupla4)
+tupla3 = tuple(tupla4)
+print(tupla3)
+
+'''O bien, puede eliminar la tupla por completo.
+
+Ejemplo, la palabra clave del puede eliminar la tupla por completo.'''
+
+#tupla5 = ("manzana", "banana", "guinda")
+#del tupla5
+#print(tupla5) esta indentada por que daria un error por estar vacia
 
 
 
